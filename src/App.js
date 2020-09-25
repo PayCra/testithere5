@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+//illegal things work!
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <svg>
+          <circle cx="50" cy="50" r="40" stroke="black" stroke-width="1" fill="red"/>
+          <rect width="50" height="50" stroke="black" stroke-width="3" fill="red"></rect>
+      </svg>
     </div>
   );
 }
