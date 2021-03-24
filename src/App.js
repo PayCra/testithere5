@@ -1,15 +1,22 @@
 import React from 'react';
 import './App.css';
 
-//illegal things work!
+// let isItEven = (n) => {
+//     if (n%2===0) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+let isItEven = n => !!(n%2);
+
+console.log(isItEven(15));
 
 function App() {
   return (
     <div className="App">
-      <svg>
-          <circle cx="50" cy="50" r="40" stroke="black" stroke-width="1" fill="red"/>
-          <rect width="50" height="50" stroke="black" stroke-width="3" fill="red"></rect>
-      </svg>
+        bla
     </div>
   );
 }
